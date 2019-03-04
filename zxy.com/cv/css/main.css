@@ -2,6 +2,7 @@
 				font-family:"Microsoft YaHei", Arial, Helvetica, sans-serif;
 				font-weight:400;
 				font-size:1.1em}
+				
         .cc{
         	color: #fff;
 
@@ -22,30 +23,48 @@
 			font-size:1.25em;
 			margin:0 0 0.1em 0;
 			margin-top:0}
+
 		h5{font-size:1.2em;margin:0 0 0.1em 0;margin-top:0}
+
 		h6{font-size:1.1em;margin:0 0 0.1em 0;margin-top:0}
+
 		p{font-size:1.1em;margin:0.5em 0}
+
 		ul{font-size:1.1em}
-		a{color:#f0e6f3;text-decoration:none;transition:0.5s}
+
+		a{color:#f0e6f3;text-decoration:none;
+			transition:0.5s}
+
 		a:hover{color:#9f3}
+
 		a.highlight{color:#724e73}
+
 		a.highlight:hover{color:#a6b19c}
 		#lang-panel{
 			position:absolute;
 			right:20px;top:20px;
 			border-radius:5px;z-index:100;
 			font-size:0.8em}
-		#lang-panel .lang{display:inline-block;border-radius:5px;padding:2px 8px}
-		#lang-panel .lang.selected{background-color:#aee2d9;color:#008a75;cursor:default}
+
+		#lang-panel .lang{display:inline-block;border-radius:5px;
+			padding:2px 8px}
+
+		#lang-panel .lang.selected{
+			background-color:#aee2d9;color:#008a75;cursor:default}
+
 		p{color:#bf92b5de} 
+
 		h1{text-shadow:1px 2px #22c3aa,2px 4px #7c0cab;text-align:center}
 		h1+h2,h1+p{margin-top:-0.5em}
+
 		h2+h1{margin-top:0.8em}
+
 		h1 em,h2 em,h3 em,h4 em,h5 em,h6 em{color:#008a75;font-style:normal}
 		ul{color:#aee2d9}
 		#title{margin:0.25em 0 0 0}
 		#subtitle{margin:1em 0 0.25em 0;color:#fff}
 		.tag-panel{margin:15px auto}
+
 		.tag{
 			background-color:#470856ad;color:#b7a1d4;
 			border-radius:3px;display:inline-block;
@@ -53,11 +72,18 @@
 			margin-right:3px;
 			margin-bottom:3px;
 			opacity:0.5}
+
 		.tag.expert{opacity:1}
+
 		.tag.familiar{opacity:0.75}
+
 		.content{max-width:800px;margin:0 auto}
+
 		*{box-sizing:border-box}
-		.section{background-color:#1f121b;color:#eef3f0;padding:50px;transition:0.5s}
+
+		.section{background-color:#1f121b;color:#eef3f0;padding:50px;
+			transition:0.5s}
+
 		.section.initing{display:none}
 		.section.leaving{background-color:#632727}
 		.center{text-align:center}
